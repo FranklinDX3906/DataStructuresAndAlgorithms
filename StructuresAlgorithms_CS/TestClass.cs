@@ -12,6 +12,6 @@ namespace Test
 
     class Person1
     {
-        public string Name{ set; get; }
+        protected string Name { set;get; }
     }
 }

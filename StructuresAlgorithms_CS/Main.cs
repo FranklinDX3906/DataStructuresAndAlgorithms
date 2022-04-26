@@ -1,17 +1,27 @@
 ﻿// 主函数，用于测试
 using System;
 using Test;
+using MyLinkedList;
 
 class MainTest
 {
     static void Main()
     {
-        Person PersonTest = new Person();
-        PersonTest.Name = "test0";
-        Console.WriteLine(PersonTest.Name);
+        ListNode nodeTest1 = new ListNode(0);
+        LinkedList linkedListTest1 = new LinkedList(nodeTest1);
 
-        Person1 PersonTest1 = new Person1();
-        PersonTest1.Name = "test1";
-        Console.WriteLine(PersonTest1.Name);
+        int[] nodeArray = new int[] { 0, 1, 2, 3 };
+        LinkedList linkedListTest2 = new LinkedList(nodeArray);
+
+        Console.WriteLine(linkedListTest1.length);
+        Console.WriteLine(linkedListTest2.length);
+
+        ListNode p = linkedListTest2.startNode;
+        while(p != null){
+            Console.WriteLine(p.value);
+            p = p.next;
+        }
+        linkedListTest2.AddListNode(nodeTest1);
+        Console.WriteLine(linkedListTest2.length);
     }
 }
