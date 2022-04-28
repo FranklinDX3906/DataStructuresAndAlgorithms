@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\DX3906\\.nuget\\packages\\": {}
+    "C:\\Users\\DX3906.Zhang\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "X:\\projects\\DataStructuresAndAlgorithms\\StructuresAlgorithms_CS\\StructuresAlgorithms.csproj",
+      "projectUniqueName": "D:\\Projects\\DataStructuresAndAlgorithms\\StructuresAlgorithms_CS\\StructuresAlgorithms.csproj",
       "projectName": "StructuresAlgorithms",
-      "projectPath": "X:\\projects\\DataStructuresAndAlgorithms\\StructuresAlgorithms_CS\\StructuresAlgorithms.csproj",
-      "packagesPath": "C:\\Users\\DX3906\\.nuget\\packages\\",
-      "outputPath": "X:\\projects\\DataStructuresAndAlgorithms\\StructuresAlgorithms_CS\\obj\\",
+      "projectPath": "D:\\Projects\\DataStructuresAndAlgorithms\\StructuresAlgorithms_CS\\StructuresAlgorithms.csproj",
+      "packagesPath": "C:\\Users\\DX3906.Zhang\\.nuget\\packages\\",
+      "outputPath": "D:\\Projects\\DataStructuresAndAlgorithms\\StructuresAlgorithms_CS\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\DX3906\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\DX3906.Zhang\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"

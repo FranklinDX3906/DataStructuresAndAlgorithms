@@ -5,23 +5,17 @@ class MainTest
 {
     static void Main()
     {
-        LinkedListNode nodeTest1 = new LinkedListNode(0);
-        LinkedList linkedListTest1 = new LinkedList(nodeTest1);
+        int[] preOrderArr = new int[] { 4, 2, 1, 3, 6, 5, 7 };
+        int[] inOrderArr = new int[] { 1, 2, 3, 4, 5, 6, 7 };
+        int[] posOrderArr = new int[] { 1, 3, 2, 5, 7, 6, 4 };
+        BinaryTree testTree1 = new BinaryTree(preOrderArr, inOrderArr, new int[0]);
+        BinaryTree testTree2 = new BinaryTree(new int[0], inOrderArr, posOrderArr);
+        BinaryTree testTree3 = new BinaryTree(preOrderArr, new int[0], posOrderArr);
 
-        object[] nodeArray = new object[] { 0, 1, 2, 3 };
-        var linkedListTest2 = new LinkedList(nodeArray);
-
-        Console.WriteLine(linkedListTest1.length);
-        Console.WriteLine(linkedListTest2.length);
-
-        LinkedListNode p = linkedListTest2.startNode;
-        while (p != null)
+        object[] posTest = testTree3.GetInOrder();
+        foreach (var val in posTest)
         {
-            Console.WriteLine(p.value);
-            p = p.next;
+            Console.WriteLine(val);
         }
-        linkedListTest2.AddListNode(nodeTest1);
-        Console.WriteLine(linkedListTest2.length);
-        Console.WriteLine(linkedListTest2.GetListValues().Length);
     }
 }
